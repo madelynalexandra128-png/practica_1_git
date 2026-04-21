@@ -57,7 +57,7 @@ header img {
 }
 
 
-.donar-section {
+.donar{
     text-align: center;
     margin: 20px 0;
 }
@@ -83,4 +83,44 @@ header img {
 
 .btn-donar:active {
     transform: scale(0.95);
+}
+
+.navbar {
+    background-color: #1B5E20;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+/* Hover general */
+.navbar a:hover {
+    background-color: #2E7D32;
+}
+
+/* Botón especial para Donar */
+.navbar .donar {
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+    font-weight: bold;
+}
+
+.navbar .donar:hover {
+    background: linear-gradient(135deg, #66BB6A, #81C784);
+    transform: scale(1.05);
 }
