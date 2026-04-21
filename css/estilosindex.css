@@ -155,3 +155,16 @@ header img {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
+
+.footer {
+    background-color: #1B5E20;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+}
