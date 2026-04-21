@@ -177,3 +177,9 @@ header img {
     border-radius: 10px;
     border: 1px solid #ccc;
 }
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #E8F5E9;
+}
